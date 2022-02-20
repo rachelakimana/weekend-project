@@ -1,0 +1,187 @@
+body {
+  background-color: lavender;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3%;
+}
+.header-logo {
+}
+.header-menu {
+  width: 25%;
+  height: 10%;
+  margin-left: 55%;
+}
+
+.header-menu > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header-menu > ul > li {
+  padding-left: 10%;
+}
+
+.header-menu > ul > li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-menu > ul > li a:hover {
+  /* background-color: #111111; */
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+}
+.section-monitor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin-top: -6%;
+  background-color: rgb(241, 195, 195);
+}
+.section-monitor > img {
+  margin-top: -5%;
+}
+.mark-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue;
+  width: 100%;
+}
+#open-modal {
+  height: 40px;
+  width: 150px;
+  border-style: none;
+  border-radius: 50px;
+  background-color: mediumturquoise;
+}
+
+#bookmark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 40px;
+  width: 150px;
+  border-style: none;
+  background-color: lightgray;
+  border-radius: 50px;
+}
+#bookmark img {
+  height: 30px;
+  width: 30px;
+}
+#bookmark > span {
+  padding-left: 5px;
+}
+
+.section-statisic {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 5%;
+  background-color: lightgray;
+}
+.statistic {
+  display: flex;
+  flex-direction: row;
+}
+.statistic > h1 {
+  display: flex;
+  flex-direction: column;
+}
+.statistic h1 > span {
+  font-size: 12px;
+  font-weight: normal;
+}
+#backed {
+  margin-right: 10px;
+  margin-left: 70px;
+}
+#total {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#days {
+  margin-left: 10px;
+  margin-right: 70px;
+}
+#progressbar {
+  background-color: mediumturquoise;
+  border-radius: 13px;
+  width: 75%;
+  padding: 3px;
+  border-color: darkgray;
+}
+
+.progress-bar {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.content-section {
+  width: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-inner {
+  width: 90%;
+  border: 1px solid lightgray;
+  margin-top: 5%;
+  border-radius: 2px;
+}
+.about-project {
+  width: 90%;
+}
+
+.bamboo-stand span {
+  float: right;
+  padding-right: 3%;
+  font-size: 16px;
+  color: cadetblue;
+}
+.reward {
+  display: flex;
+  flex-direction: row;
+}
+
+.bamboo-stand,
+.reward {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.reward span {
+  font-size: 12px;
+  font-weight: normal;
+}
+.select {
+  height: 30px;
+  width: 150px;
+  margin-left: 72%;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  background-color: mediumturquoise;
+}
